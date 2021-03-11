@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Portafolio Angel Morales</title>
+</head>
+<body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+          <a class="navbar-brand" href="#">Angel Morales</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Acerca de</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Portafolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- fondo inicial -->
+    <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+        <div class="content text-center">
+            <h1 class="text-white">Desarrollador Web jr</h1>
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="container my-5 d-grid gap-5">
+        <div class="p-5 border">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consequuntur animi praesentium odio aut! Omnis tenetur sapiente consequatur nostrum, odit doloribus architecto incidunt quae, corrupti debitis mollitia repellendus assumenda quisquam.
+            </p>
+        </div>
+        <div class="container my-5 d-grid gap-5">
+            <div class="p-5 border">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consequuntur animi praesentium odio aut! Omnis tenetur sapiente consequatur nostrum, odit doloribus architecto incidunt quae, corrupti debitis mollitia repellendus assumenda quisquam.
+                </p>
+            </div>
+            <div class="container my-5 d-grid gap-5">
+                <div class="p-5 border">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consequuntur animi praesentium odio aut! Omnis tenetur sapiente consequatur nostrum, odit doloribus architecto incidunt quae, corrupti debitis mollitia repellendus assumenda quisquam.
+                    </p>
+                </div>
+                <div class="container my-5 d-grid gap-5">
+                    <div class="p-5 border">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consequuntur animi praesentium odio aut! Omnis tenetur sapiente consequatur nostrum, odit doloribus architecto incidunt quae, corrupti debitis mollitia repellendus assumenda quisquam.
+                        </p>
+                    </div>
+
+    </div>
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', function() {
+            if(window.pageYOffset > 100){
+                nav.classList.add('bg-dark', 'shadow');
+            }else{
+                nav.classList.remove('bg-dark', 'shadow');
+            }
+        });
+    </script>
+    
+</body>
+</html>
