@@ -1,5 +1,95 @@
+:root{
+    --primario: #4579BB;
+    --secundario: #986D81;
+    --gris: #;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #8d5a5a;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    
+}
+
+.bg-primary{
+    background-color: #4579BB!important;
+}
+
+.bg-secondary{
+    background-color: #986D81!important;
+}
+
 
 .banner-image{
     background-image: url(/images/hero6.jpeg);
     background-size: cover;
 }
+
+
+
+.navbar-collapse{
+    display: inline-block;
+    transition: all 0.5s ease;
+
+}
+
+.navbar-collapse a:hover{
+    display: inline-block;
+    opacity: 0.5;
+    border-radius: 15px;
+}
+
+.bg-img1{
+    background-image: url(../images/01.jpg);
+  }
+  
+  .bg-img02{
+    background-image: url(../images/02.jpg);
+  }
+  
+  .imagen{
+    background-size: cover;
+    background-position: top center;
+  }
+
+  .imagen-superior > div,
+  .imagen-inferior > div {
+      height: 30rem;
+  }
+
+  @media (min-with:768px){
+    .imagen-superior > div,
+    .imagen-inferior > div {
+        height: 45rem;
+    }
+  }
+
+.imagen-inferior .bg-img02{
+    order: 1;
+}
+
+@media (min-width:768px){
+    .imagen-inferior .bg-img02{
+        order: unset;
+    }
+}
+
+.imagen-superior .contenido{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.imagen-inferior .contenido{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+  
+
+
+
+
