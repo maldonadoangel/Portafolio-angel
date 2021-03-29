@@ -1,12 +1,28 @@
 :root{
     --primario: #4579BB;
-    --secundario: #986D81;
+    --secundario: #49637A;
     --gris: #;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
     color: #8d5a5a;
+}
+main{
+    background: #F2E9E6;
+}
+
+.fab{
+    display: flex;
+    font-size: 60px;
+    color: white;
+    margin-right: 10px;
+}
+
+.fab:hover{
+    display: inline-block;
+    color: blue;
+    transition: all 0.4s;
 }
 
 .nav-link{
@@ -19,7 +35,7 @@ body{
 }
 
 .bg-secondary{
-    background-color: #986D81!important;
+    background-color: #49637A!important;
 }
 
 
@@ -89,7 +105,27 @@ body{
 
 
   
+/* Portafolio */
 
 
+.card{
+    color: white;
+    box-shadow: 1px 1px 1px 1px rgba(3, 3, 3, 0.582);
+    background: #2E4F7A;
+    margin-bottom: 27px;
+}
 
+.card ul li{
+    color: black;
+}
+
+.card a{
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.separador{
+    color: black!important;
+}
 
