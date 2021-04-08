@@ -3,6 +3,9 @@
     --secundario: #49637A;
     --gris: #;
 }
+*{
+    font-family: 'Poppins', sans-serif;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -35,7 +38,8 @@ main{
 }
 
 .bg-secondary{
-    background-color: #49637A!important;
+    background-color: #142741!important;
+    
 }
 
 
@@ -44,11 +48,18 @@ main{
     background-size: cover;
 }
 
+.navbar-brand{
+    display: inline-block;
+    font-size: 1.5em;
+    padding-left: 100px;
+}
+
 
 
 .navbar-collapse{
     display: inline-block;
     transition: all 0.5s ease;
+   
 
 }
 
@@ -56,6 +67,7 @@ main{
     display: inline-block;
     opacity: 0.5;
     border-radius: 15px;
+    
 }
 
 .bg-img1{
@@ -76,22 +88,12 @@ main{
       height: 30rem;
   }
 
-  @media (min-with:768px){
-    .imagen-superior > div,
-    .imagen-inferior > div {
-        height: 45rem;
-    }
-  }
-
+ 
 .imagen-inferior .bg-img02{
     order: 1;
 }
 
-@media (min-width:768px){
-    .imagen-inferior .bg-img02{
-        order: unset;
-    }
-}
+
 
 .imagen-superior .contenido{
     border-top: 1px solid white;
@@ -111,7 +113,7 @@ main{
 .card{
     color: white;
     box-shadow: 1px 1px 1px 1px rgba(3, 3, 3, 0.582);
-    background: #2E4F7A;
+    background: #1e3d66;
     margin-bottom: 27px;
 }
 
@@ -125,10 +127,69 @@ main{
     padding-right: auto;
 }
 
-.separador{
+.separador-p{
     color: black!important;
 }
 
 
 /* Habilidades */
+.separador{
+    color: #fff;
+}
+.skills{
+  background: #142741;
+}
+.img-skills{
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 17px;
+    border-radius: 19px;
+}
+
+.p-skills{
+    color: white;
+
+}
+
+
+
+
+
+/* Media querys */
+
+@media screen and (max-width:999px){
+    .navbar-brand{
+        display: inline-block;
+        font-size: 1.4em;
+        padding-left: 0; 
+    }
+}
+
+
+@media screen and (min-width:1000px){
+    .navbar-brand{
+        display: inline-block;
+        font-size: 1.6em;
+        padding-left: 100px;
+    }
+
+}
+
+@media (min-width:768px){
+    .imagen-inferior .bg-img02{
+        order: unset;
+    }
+}
+
+@media (min-with:768px){
+    .imagen-superior > div,
+    .imagen-inferior > div {
+        height: 45rem;
+    }
+  }
+
 
