@@ -190,6 +190,30 @@ main{
     .imagen-inferior > div {
         height: 45rem;
     }
-  }
+}
 
 
+
+/* Formulario Contacto */
+
+.form-label{
+    color: #142741;
+    font-size: 18px;
+}
+
+footer{
+    margin-top: 15px;
+    background: #000;
+}
+
+.copy{
+    font-size: 19px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.foot{
+    font-size: 40px;
+    padding-top: 10px;
+    padding-right: 15px;
+}
